@@ -7670,17 +7670,6 @@ code.google.com/p/crypto-js/wiki/License
             }
             )
         };
-        ((function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id))
-                return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//html5.api.gamedistribution.com/main.min.js";
-            fjs.parentNode.insertBefore(js, fjs)
-        }
-        ))(document, "script", "gamedistribution-jssdk")
-    }
     function _SDK_PreloadAd() {
         if (typeof gdsdk !== "undefined" && typeof gdsdk.preloadAd !== "undefined") {
             gdsdk.preloadAd(gdsdk.AdType.Rewarded).then((function(response) {
